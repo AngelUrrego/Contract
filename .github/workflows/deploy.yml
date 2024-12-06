@@ -25,7 +25,7 @@ jobs:
         run: npm run build
 
       - name: List files in dist
-        run: ls -al ./dist  # Verificar que los archivos existen
+        run: ls -al ./dist  # Verifica que los archivos están en ./dist
 
       - name: Upload production-ready build files
         uses: actions/upload-artifact@v4
